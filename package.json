@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "JavaScript development environment",
   "scripts": {
+    "prestart": "node buildscripts/startMessage.js",
+    "start": "node buildscripts/srcServer.js"
   },
-  "author": "Cory House",
+  "author": "Mar House",
   "license": "MIT",
   "dependencies": {
     "whatwg-fetch": "1.0.0"
