@@ -1,6 +1,6 @@
-var express = require('express');//did not work with import keyword
-var path = require('path');
-var open = require('open');
+import express from 'express';//did not work with import keyword
+import path from 'path';
+import open from 'open';
 
 
 const port = 3000;
