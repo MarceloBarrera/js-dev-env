@@ -1,0 +1,25 @@
+{
+  "root": true,
+  "extends": [
+    "eslint:recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "rules": {
+      "no-console": 1
+  }
+}
+//  "root": true, it is in project root
+//   "eslint:recommended",  we use recommended
+//ES2016 : "ecmaVersion": 7,
+//rules to override:
+//"no-console": 0 off, 1 warning, 2 Error
