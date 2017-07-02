@@ -1,8 +1,8 @@
-//this config is not real from production
+//this config is not real from production, just for local machine that prod build works locally
 import express from 'express';//did not work with import keyword
 import path from 'path';
 import open from 'open';
-import compression from 'compression';
+import compression from 'compression';//gzip
 /*eslint-disable no-console*/
 
 const port = 3000;
